@@ -1,5 +1,5 @@
-# Full Stack developer homework 2
+# Full Stack developer homework 3
 
-This second approach is teaching us how to style our code with CSS and best practices
+This third approach is teaching us how to style our code with CSS and best practices using flexbox to position elements.
 
 ### Santiago Hincapié Murillo
