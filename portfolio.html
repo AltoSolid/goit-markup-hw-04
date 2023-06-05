@@ -18,7 +18,7 @@
       <nav>
         <ul class="main__header-links-list">
           <li class="main__header-list-item">
-            <a href="./index.html" class="main__header-title">WebStudio</a>
+            <a href="./" class="main__header-title">WebStudio</a>
           </li>
           <li class="main__header-list-item">
             <a class="main__header-pages-link header-link" href="./">Studio</a>
@@ -33,10 +33,16 @@
       </nav>
       <ul class="main__header-contact-list">
         <li class="main__header-list-item">
-          <a class="main__header-contact-link header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <svg class="main_header-contact-list-svg-icon svg-icon-mobile">
+            <use href="./images/icons.svg#icon-mail"></use>
+          </svg>
+          <a class="main__header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="main__header-list-item">
-          <a class="main__header-contact-link header-link" href="tel:+12127724150">+1 212-772-4150</a>
+          <svg class="main_header-contact-list-svg-icon svg-icon-mail">
+            <use href="./images/icons.svg#icon-mobile"></use>
+          </svg>
+          <a class="main__header-contact-link" href="tel:+12127724150">+1 212-772-4150</a>
         </li>
       </ul>
     </div>
@@ -128,28 +134,63 @@
     </section>
   </main>
   <footer class="about__us-footer">
-    <ul class="about__us-footer-container container">
-      <li class="about__us-footer-item">
-        <a href="./index.html" class="about__us-footer-main-title">
-          <h3 class="about__us-footer-main-title-text">WebStudio</h3>
-        </a>
-      </li>
-      <li class="about__us-footer-item">
-        <address class="about__us-footer-text">
-          695 Park, Ave, New York, NY 10065, United States
-        </address>
-      </li>
-      <li class="about__us-footer-item">
-        <a href="mailto:info@devstudio@.com" class="about__us-footer-link">
-          info@devstudio@.com
-        </a>
-      </li>
-      <li class="about__us-footer-item">
-        <a href="tel:+12127724150" class="about__us-footer-link">
-          +1 212-772-4150
-        </a>
-      </li>
-    </ul>
+    <div class="about__us-footer-container container">
+      <ul class="about__us-footer-info-container">
+        <li class="about__us-footer-item">
+          <a href="./" class="about__us-footer-main-title">
+            <h3 class="about__us-footer-main-title-text">WebStudio</h3>
+          </a>
+        </li>
+        <li class="about__us-footer-item">
+          <address class="about__us-footer-text">
+            695 Park, Ave, New York, NY 10065, United States
+          </address>
+        </li>
+        <li class="about__us-footer-item">
+          <a href="mailto:info@devstudio@.com" class="about__us-footer-link">
+            info@devstudio@.com
+          </a>
+        </li>
+        <li class="about__us-footer-item">
+          <a href="tel:+12127724150" class="about__us-footer-link">
+            +1 212-772-4150
+          </a>
+        </li>
+      </ul>
+      <div class="about__us-footer-container-social-media">
+        <h3 class="about__us-footer-container-social-media-title">Find us on</h3>
+        <ul class="about__us-footer-container-social-media-list">
+          <li class="main__section-social-media-item-footer">
+            <a href="#">
+              <svg class="main__section-social-media-item-svg-icon-footer">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="main__section-social-media-item-footer">
+            <a href="#">
+              <svg class="main__section-social-media-item-svg-icon-footer">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="main__section-social-media-item-footer">
+            <a href="#">
+              <svg class="main__section-social-media-item-svg-icon-footer">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="main__section-social-media-item-footer">
+            <a href="#">
+              <svg class="main__section-social-media-item-svg-icon-footer">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 
